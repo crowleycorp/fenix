@@ -1,0 +1,661 @@
+@charset "utf-8";
+/* RPCSS-Header-Menu-Footer */
+
+/*
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-weight: 400;
+
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  font-weight: 400;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 800;
+
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  font-weight: 800;
+
+	//Azul
+color:#003B91;
+color:rgba(0,59,145,1);
+
+	//Naranja
+color:#FF9E16;
+color:rgba(255,158,22,1);
+
+	//Amarillo
+color:#FFE01E;
+color:rgba(255,224,30,1);
+
+	//Negro
+color:#434041;
+color:rgba(67,64,65,1);
+
+*/
+
+*{margin: 0; padding: 0; box-sizing:border-box;}
+body{
+	
+}
+.cont-servicios,
+.cont-asociados,
+.cont-consulta,
+.cont-contacto{
+	width: 100%;
+	height: 100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.cont-home{
+	top: 0; 
+	width: 100%; 
+	overflow: hidden; 
+
+}
+
+.slider{
+	width: 100%;
+	overflow: hidden;
+}
+
+.nosotros{
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;	
+	background-position:top center;
+	position:relative;
+	width: 100%;
+	height: 400px;
+}
+
+.info{
+	
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+    top: 200px;
+    transform: translateY(-50%);
+	text-align: center;
+	color:#434041;
+}
+
+.info h1{
+	display:block;
+	width: 100%;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size: 2.3em;	  	
+}
+
+.info p{
+	display:block;
+	width: 80%;
+	margin-left: 10%;
+	margin-top:30px;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.3em;
+	  	letter-spacing:1px;
+}
+
+.info a{
+	display:inline-block;
+	margin-top:20px;
+	padding:10px;
+		text-decoration:none;
+		font-family: 'Lato';
+  		font-style: normal;
+  		font-weight: 300;
+	  	font-size: 1em;
+		letter-spacing:1px;
+		color:#434041;
+}
+
+.info a:hover{
+	color:white;
+	background-color:#FF9E16;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.cont-servicios{
+	background-image:url(../img/bg-serv1.jpg);
+	background-position:top center;
+	text-align:center;
+}
+#servicios, #asociados, #consulta, #contacto{
+	width:80%;
+	height:80vh;	
+	margin-top:50vh;
+	position:absolute;
+	margin-left:10%;
+	transform: translateY(-50%);
+}
+#servicios{
+	width:80%;
+	height:auto;
+	margin-top:50vh;
+    transform: translateY(-50%);
+	text-shadow: 0.3px 0.5px 0.5px #434041;
+	color:white;
+	/*color:#434041;*/
+	/*background-color:red;*/
+}
+#text h1{
+	display:block;
+	width:100%;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size: 2.3em;
+}
+#text p{
+	display:block;
+	width:100%;
+	margin-top:20px;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.3em;
+	  	letter-spacing:1px;
+}
+
+#servicios a{
+	display:inline-block;
+	padding:10px;
+		text-decoration:none;
+		font-family: 'Lato';
+  		font-style: normal;
+  		font-weight: 300;
+	  	font-size: 1em;
+		letter-spacing:1px;
+		color:white;
+}
+
+#servicios a:hover{
+	color:white;
+	background-color:#FF9E16;
+	font-style: italic;
+	font-weight: 400;
+	text-shadow:none;
+}
+
+#banners{
+	width:90%;
+	overflow:hidden;
+	margin-top:30px;
+	margin-left:5%;
+	/*background-color:green;*/
+}
+
+.serv{
+	position:relative;
+	width:32%;
+	height:30vh;
+	margin-left:1%;
+	margin-top:1vh;
+	float:left;
+	color:white;
+	cursor:pointer;
+	transition: all .2s ease-out;
+	/*background-color:blue;*/
+	/*color:#434041;*/
+}
+
+
+.ico{
+	width:100%;
+	height:30%;
+	margin-top:10%;
+}
+
+.ico svg{
+	
+	height: 100%;
+	fill:white;
+}
+.ico svg:hover{
+	fill:#434041;
+}		
+.serv h1{
+	display:block;
+	width:100%;
+	margin-top:25px;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 700;
+	  	font-size: 1.2em;
+		letter-spacing:0.5px;
+}
+
+.serv p{
+	display:block;
+	width:80%;
+	margin-left:10%;
+	margin-top:10px;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.1em;
+	  	letter-spacing:1px;
+}
+
+.cont-asociados{
+	background-image:url(../img/bg-afl.jpg);
+	background-position:center right;
+	text-align:center;
+}
+#asociados{
+	background-color:red;
+}
+
+.imagen{
+	width:30%;
+	height:60vh;
+	margin-top:20vh;
+	float:left;
+
+}
+
+.imagen img{
+	height:auto;
+	width:100%;
+}
+
+.cont-consulta{
+	background-image:url(../img/bg-serv.jpg);
+	background-position:center right;
+	text-align:center;
+}
+
+#consulta{
+	width:80%;
+	height:600px;
+	margin-top:50vh;
+    transform: translateY(-50%);
+}
+
+.ct-conl{
+	width:55%;
+	margin-top: 300px;
+	transform: translateY(-50%);
+	float:left;
+	padding: 15px;
+
+}
+.ct-conr{
+	width:43%;
+	height:100%;
+	float:right;
+	background-color:rgba(255,158,22,.3);
+}
+#tit{
+	width: 100%;
+}
+
+#tit h1, #tit h2{
+	display:block;
+	width:100%;
+	padding-right: 10px;
+		text-align:right;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size:2.5em;
+		color:#434041;
+}
+
+#tit h2{
+	  	font-size:4.5em;
+}
+
+#pasos{
+	width: 100%;
+	margin-top:30px; 
+}
+
+.num{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 25px 25px;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size:2.5em;
+	  	line-height: 44px;
+	  	color:white;
+	background-color: #003B91;
+}
+
+.tex{
+	max-width: 100%;	
+	margin-top: 10px;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size:1.5em;
+	  	letter-spacing:1px;
+		color:#434041;
+}
+
+#pasos h1{
+	display: block;
+	margin: auto;
+	margin-top:20px;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size:2.5em;
+	  	line-height: 44px;
+	  	text-shadow: 0.3px 0.5px 0.5px ;
+	  	color:#FF9E16;
+}
+
+#pasos p{
+	display:block;
+	width:100%;
+	margin-top:20px;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.5em;
+	  	letter-spacing:1px;
+		color:#434041;
+}
+
+
+
+
+
+
+.cont-contacto{
+	background-image:url(../img/bg-cont.jpg);
+	background-position:center center;
+}
+
+#contacto{
+	width:80%;
+	height:auto;
+	margin-top:50vh;
+    transform: translateY(-50%);
+	text-shadow: 0.3px 0.5px 0.5px #434041;
+	color:white;
+	text-align:center;
+}
+#c-text h1{
+	display:block;
+	width:100%;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 800;
+	  	font-size: 2.3em;
+}
+#c-text p{
+	display:block;
+	width:100%;
+	margin-top:20px;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.3em;
+	  	letter-spacing:1px;
+}
+
+#mapi, #formulario{
+	box-sizing:border-box;
+	width:43%;
+	height: 600px;
+	margin-top:30px;
+	float: left;
+}
+
+.map{
+	border:none;
+	overflow:hidden;
+	width: 100%;
+	height: 360px;
+	max-height: 360px;
+}
+.infoc{
+	width: 100%;
+	height: 120px;
+	margin-top: 30px;
+}
+.dir{
+	width:32%;
+	height:120px;
+	margin-left:1%;
+	float:left;
+	color:white;
+}
+
+.icot{
+	width:100%;
+	height:30px;
+	margin-bottom:30px;
+}
+.icot svg{
+	height:100%;
+	fill:white;
+	cursor:pointer;
+}
+.dir p{
+	display:block;
+	max-width:100%;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1em;
+	  	letter-spacing:0.5px;
+}
+
+
+.follow{
+	width:100%;
+	height: 60px;
+	margin-top: 30px;
+}
+.follow p{
+	display:block;
+	height:60px;
+	width:24%;
+	margin-left:30%;
+	float:left;
+		font-family: 'Lato';
+  		font-style: italic;
+  		font-weight: 400;
+	  	font-size: 1.3em;
+		line-height:60px;
+	  	letter-spacing:0.5px;
+}
+
+#fb, #ldin{
+	width:8%;
+	height:30px;
+	margin-top:15px;
+	fill:white;
+	cursor:pointer;
+	float:left;
+}
+
+#fb:hover{
+	fill:#3B5998;
+}
+#ldin:hover{
+	fill:#007bb6;
+}
+
+#formulario{
+	display:block;
+	float: right;	
+}
+
+.ingreso, .msj, .bot1, .bot2{
+	width:100%;
+	height: 60px;
+	display:block;
+	margin-bottom:30px;
+	padding-left:20px;	
+	background-color:rgba(255,255,255,0.3);
+	border:solid 1px #fff;
+		text-transform: uppercase;
+		font-family: 'Raleway';
+  		font-style: normal;
+  		font-weight: 700;
+	  	font-size: 1.2em;
+		letter-spacing:0.5px;
+		color:black;
+		text-shadow: 0.3px 0.5px 0.5px #434041;
+}
+
+.ingreso, .bot1, .bot2{
+	line-height: 60px;
+}
+
+.msj {
+	max-width: 100%;
+	height: 240px;
+	padding-top:10px;
+}
+.bot1, .bot2 {
+	cursor: pointer;
+	width:47%;
+	float: left;
+	padding-left:0px;
+	color:white;
+	border:none;
+}
+
+.bot2 {
+	float: right;
+}
+.bot1:hover, .bot2:hover {
+	background-color:white;
+	color: #434041;
+	text-shadow:none;
+}
+
+/*TABLETS*/
+@media screen and (min-width:480px) and (max-width:1200px){
+
+/*.cont-servicios{
+	width: 100%;
+	height: 100vh;
+	background-color:red;
+	
+}
+.cont-asociados{
+	width: 100%;
+	height: 100vh;
+	background-color: silver;
+}
+
+.cont-consulta{
+	width: 100%;
+	height: 100vh;
+	background-color:red;
+	
+}
+.cont-contacto{
+	width: 100%;
+	height: 100vh;
+	background-color: silver;
+}*/
+
+.nosotros{
+	height: 300px;
+}
+.info{
+	top: 150px;
+	width: 90%;
+	margin-left: 5%;    
+}
+.info h1{
+	font-size:32px;
+}
+.info p{
+	width: 100%;
+	margin-top:20px;
+	margin-left: 0%;	
+	font-size:20px;
+	
+}
+.info a{
+	margin-top:15px;
+	font-size:14px;
+}
+
+}
+
+/*MOVIL*/
+@media screen and (min-width:100px) and (max-width:480px){
+	/*.cont-servicios{
+	width: 100%;
+	height: 100vh;
+	background-color:red;
+	
+}
+.cont-asociados{
+	width: 100%;
+	height: 100vh;
+	background-color: silver;
+}
+
+.cont-consulta{
+	width: 100%;
+	height: 100vh;
+	background-color:red;
+	
+}
+.cont-contacto{
+	width: 100%;
+	height: 100vh;
+	background-color: silver;
+}*/
+
+.nosotros{
+	height: 250px;
+}
+
+.info{
+    top: 125px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.info h1{
+	font-size: 24px;
+}
+
+.info p{
+	width:100%;
+	margin-left: 0%;
+	margin-top:15px;
+	font-size: 16px;
+}
+
+.info a{
+	margin-top:10px;
+	font-size: 14px;
+}
+}
